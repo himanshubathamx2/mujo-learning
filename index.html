@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-light">
+    
+    <!-- navbar -->
+    <div class="container-fluid bg-body-tertiary border-bottom " >
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <nav class="navbar navbar-expand-lg">
+                     <div class="container-fluid">
+                      <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo" srcset=""></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="courses.html">Courses</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="FAQ.html">FAQ</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                          </li>
+                        </ul>
+
+                        <div class="ms-auto me-1 gap-2 d-grid d-md-block mb-2 mb-md-0">
+                          <a href="#" class="btn btn-sm btn-danger align-items-center d-inline-flex justify-content-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-plus-fill me-2" viewBox="0 0 16 16">
+                            <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                            <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
+                          </svg>Sign-up for free</a>
+                          <a href="#" class="btn btn-sm btn-warning align-items-center d-inline-flex justify-content-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right me-2" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+                            <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                          </svg>Login</a>
+                        </div> 
+
+                        <form class="d-flex input-group-sm" role="search">
+                          <input class="form-control" type="search" placeholder="Search for..." aria-label="Search">
+                          <button class="btn btn-sm btn-success" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                          </svg></button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>      
+            </div>
+        </div>
+    </div>
+
+    <!-- home banner  -->
+    <div class="main-header py-5 border-bottom">
+      <div class="container">
+        <div class="row justify content center gx-md-5">
+          <div class="col-md-6">
+            <div class="home-header-text-holder">
+              <h1 class="fs-3 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. A eius dolorem excepturi fuga quod aliquid</h1>
+            </div>
+            <h6 class="fs-5 fw-light text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos qui fuga ipsum totam laboriosam neque vero soluta at! Ex deserunt nam recusandae harum eum.</h6>
+            <a href="#" class="btn btn-sm btn-success my-3 align-items-center d-inline-flex"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-up me-2" viewBox="0 0 16 16">
+              <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.354-5.854 1.5 1.5a.5.5 0 0 1-.708.708L13 11.707V14.5a.5.5 0 0 1-1 0v-2.793l-.646.647a.5.5 0 0 1-.708-.708l1.5-1.5a.5.5 0 0 1 .708 0ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+              <path d="M8.256 14a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z"/>
+            </svg>Sign-up to Get Started</a>
+          </div>
+          <div class="col-md-6">
+            <div class="home-header-image-holder ">
+              <img src="img/banner.jpg" style="width: 430px;" alt="" srcset="" class="img-fluid shadow-sm rounded">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+  <!-- site features -->
+  <section class="site-features py-4 border-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-md-0 mb-3">
+          <div class="feature-item d-flex align-items-center bg-white p-3 border rounded">
+             <div class="flex-shrink-0">
+              <img src="img/feature-clock.jpg" class="img-fluid" alt="" srcset="">
+             </div>
+             <div class="flex-grow-1 ms-3">
+              <h3 class="fs-5">High qualitty lessons</h3>
+              <p class="small text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium delectus ipsa.</p>
+             </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-md-0 mb-3">
+          <div class="feature-item d-flex align-items-center bg-white p-3 border rounded">
+            <div class="flex-shrink-0">
+             <img src="img/feature-tick.jpg" class="img-fluid" alt="" srcset="">
+            </div>
+            <div class="flex-grow-1 ms-3">
+             <h3 class="fs-5">High qualitty lessons</h3>
+             <p class="small text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium delectus ipsa.</p>
+            </div>
+         </div>
+        </div>
+        <div class="col-md-4 mb-md-0 mb-3">
+          <div class="feature-item d-flex align-items-center bg-white p-3 border rounded">
+            <div class="flex-shrink-0">
+             <img src="img/feature-laptop.jpg" class="img-fluid" alt="" srcset="">
+            </div>
+            <div class="flex-grow-1 ms-3">
+             <h3 class="fs-5">High qualitty lessons</h3>
+             <p class="small text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium delectus ipsa.</p>
+            </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- coursr loop header  -->
+  <section class="course-loop py-4 border bottom">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-5">
+          <div class="course-loop-heading text-md-center mb-4">
+            <h2 class="fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium amet asperiores quaerat saepe</h2>
+            <p class="small text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat sed, temporibus nam nisi accusamus illo aut dicta amet unde sit impedit laborum porro ducimus autem inventore ad, quod voluptate repellendus!</p>
+            <a href="courses.html" class="btn btn-sm text-bg-success justify-content-center align-items-center d-inline-flex"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mortarboard me-2" viewBox="0 0 16 16">
+              <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z"/>
+              <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
+            </svg>View all courses</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <ul class="list-group mb-3">
+            <li class="list-group-item d-flex justify-content-between align-items-center bg-body-tertiary fw-bold">
+              Course categories</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Premium courses
+              <span class="badge text-bg-warning rounded-pill">14</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Free courses
+              <span class="badge text-bg-warning rounded-pill">2</span>
+            </li>
+          </ul>
+          <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center bg-body-tertiary fw-bold">
+              Course by topics</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Designing
+              <span class="badge text-bg-warning rounded-pill">14</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Backend
+              <span class="badge text-bg-warning rounded-pill">2</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              DevOps
+              <span class="badge text-bg-warning rounded-pill">1</span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-9 mt-md-3 mt-3">
+          <div class="row">
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center fw-bold">
+                List of all courses
+                <span class="badge text-bg-warning rounded-pill">24 Courses available</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center ">
+                <a href="single-course.html" class="text-decoration-none" >
+                  <div class="d-flex align-items-center">
+                    <div class="col-md-3 col-3 course-image flex-shrink-0 me-3">
+                      <img src="img/banner2.jpg" class="img-fluid rounded" alt="" srcset="">
+                    </div>
+                    <div class="course-content col-md-6 text-secondary flex-grow-1">
+                      <h1 class="fs-3">This is course heading which is about course</h1>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, ipsam, repudiandae optio alias ab similique vero rerum vel praesentium possimus sint tempore repellat inventore mollitia, illum quae! Ad, maxime exercitationem!</p>
+                      <p">
+                        <span class="rounded-pill text-bg-warning px-2 py-1 small d-inline-flex align-items-center me-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill me-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg>Rating 4.7
+                        </span>
+                        <span class="rounded-pill text-bg-success px-2 py-1 small d-inline-flex align-items-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+                            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"/>
+                          </svg>Price: Rs.499/- 
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center ">
+                <a href="single-course.html" class="text-decoration-none" >
+                  <div class="d-flex align-items-center">
+                    <div class="col-md-3 col-3 course-image flex-shrink-0 me-3">
+                      <img src="img/banner2.jpg" class="img-fluid rounded" alt="" srcset="">
+                    </div>
+                    <div class="course-content col-md-6 text-secondary flex-grow-1">
+                      <h1 class="fs-3">This is course heading which is about course</h1>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, ipsam, repudiandae optio alias ab similique vero rerum vel praesentium possimus sint tempore repellat inventore mollitia, illum quae! Ad, maxime exercitationem!</p>
+                      <p">
+                        <span class="rounded-pill text-bg-warning px-2 py-1 small d-inline-flex align-items-center me-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill me-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg>Rating 4.7
+                        </span>
+                        <span class="rounded-pill text-bg-success px-2 py-1 small d-inline-flex align-items-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+                            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"/>
+                          </svg>Price: Rs.499/- 
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center ">
+                <a href="single-course.html" class="text-decoration-none" >
+                  <div class="d-flex align-items-center">
+                    <div class="col-md-3 col-3 course-image flex-shrink-0 me-3">
+                      <img src="img/banner2.jpg" class="img-fluid rounded" alt="" srcset="">
+                    </div>
+                    <div class="course-content col-md-6 text-secondary flex-grow-1">
+                      <h1 class="fs-3">This is course heading which is about course</h1>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, ipsam, repudiandae optio alias ab similique vero rerum vel praesentium possimus sint tempore repellat inventore mollitia, illum quae! Ad, maxime exercitationem!</p>
+                      <p">
+                        <span class="rounded-pill text-bg-warning px-2 py-1 small d-inline-flex align-items-center me-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill me-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg>Rating 4.7
+                        </span>
+                        <span class="rounded-pill text-bg-success px-2 py-1 small d-inline-flex align-items-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+                            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"/>
+                          </svg>Price: Rs.499/- 
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center ">
+                <a href="single-course.html" class="text-decoration-none" >
+                  <div class="d-flex align-items-center">
+                    <div class="col-md-3 col-3 course-image flex-shrink-0 me-3">
+                      <img src="img/banner2.jpg" class="img-fluid rounded" alt="" srcset="">
+                    </div>
+                    <div class="course-content col-md-6 text-secondary flex-grow-1">
+                      <h1 class="fs-3">This is course heading which is about course</h1>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, ipsam, repudiandae optio alias ab similique vero rerum vel praesentium possimus sint tempore repellat inventore mollitia, illum quae! Ad, maxime exercitationem!</p>
+                      <p">
+                        <span class="rounded-pill text-bg-warning px-2 py-1 small d-inline-flex align-items-center me-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill me-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg>Rating 4.7
+                        </span>
+                        <span class="rounded-pill text-bg-success px-2 py-1 small d-inline-flex align-items-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+                            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"/>
+                          </svg>Price: Rs.499/- 
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center ">
+                <a href="single-course.html" class="text-decoration-none" >
+                  <div class="d-flex align-items-center">
+                    <div class="col-md-3 col-3 course-image flex-shrink-0 me-3">
+                      <img src="img/banner2.jpg" class="img-fluid rounded" alt="" srcset="">
+                    </div>
+                    <div class="course-content col-md-6 text-secondary flex-grow-1">
+                      <h1 class="fs-3">This is course heading which is about course</h1>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, ipsam, repudiandae optio alias ab similique vero rerum vel praesentium possimus sint tempore repellat inventore mollitia, illum quae! Ad, maxime exercitationem!</p>
+                      <p">
+                        <span class="rounded-pill text-bg-warning px-2 py-1 small d-inline-flex align-items-center me-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill me-2" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg>Rating 4.7
+                        </span>
+                        <span class="rounded-pill text-bg-success px-2 py-1 small d-inline-flex align-items-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+                            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"/>
+                          </svg>Price: Rs.499/- 
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>  
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+<!-- home page content -->
+<section class="home-page-content py-4 mb-3">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <div class="home-content-holder pe-md-3">
+         <h1 class="fs-5" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quos necessitatibus ea voluptatum vero</h1> 
+         <p class="small text-secondary">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officia vel a iste praesentium ipsa numquam commodi animi neque provident aliquam impedit illo, eaque, ab sed corrupti quae sapiente sequi.
+          <h1 class="fs-5" >Lorem ipsum dolor sit amet consectetur adipisicing</h1> 
+         <p class="small text-secondary">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officia vel a iste praesentium ipsa numquam commodi animi neque provident aliquam impedit illo, eaque, ab sed corrupti quae sapiente sequi.
+         </p>
+         <a href="#" class="btn btn-sm text-bg-success mb-md-0 mb-3 d-inline-flex align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-square me-2" viewBox="0 0 16 16">
+          <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+          <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>Sign-up to get more info</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="home-content-image">
+          <img class="img-fluid full-width rounded shadow-sm" src="img/banner2.jpg" alt="" srcset="">
+        </div>
+      </div>  
+    </div>
+  </div>
+</section>
+  
+
+
+<!-- subscribe  -->
+  <section class="subscribe py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <div class="subscribe-heading text-white text-md-end text-center">
+            <h5 class="fs-4 fw-light m-0 mb-md-0 mb-3">
+              Subscribe for newsletters
+            </h5>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <form action="" class="justify-content-center d-flex">
+            <input class="form-control" type="email" placeholder="Your email" aria-label="Search">
+            <button class="btn btn-sm btn-success align-items-center d-inline-flex" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-postage-heart-fill me-2" viewBox="0 0 16 16">
+              <path d="M4.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-7ZM8 11C2.175 7.236 6.336 4.31 8 5.982 9.664 4.309 13.825 7.236 8 11Z"/>
+              <path d="M4.5 0a1 1 0 0 1-2 0H1v1a1 1 0 0 1 0 2v1a1 1 0 0 1 0 2v1a1 1 0 0 1 0 2v1a1 1 0 1 1 0 2v1a1 1 0 1 1 0 2v1h1.5a1 1 0 1 1 2 0h1a1 1 0 1 1 2 0h1a1 1 0 1 1 2 0h1a1 1 0 1 1 2 0H15v-1a1 1 0 1 1 0-2v-1a1 1 0 1 1 0-2V9a1 1 0 1 1 0-2V6a1 1 0 1 1 0-2V3a1 1 0 1 1 0-2V0h-1.5a1 1 0 1 1-2 0h-1a1 1 0 1 1-2 0h-1a1 1 0 0 1-2 0h-1ZM4 14a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4Z"/>
+            </svg>Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  
+  
+ <!-- main footer  -->
+ <div class="main-footer py-3 text-bg-dark small">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <div class="brand-icon mb-2">
+            <img class="rounded-pill" src="img/logo.png" alt="" srcset="" >
+          </div>
+          <address class="small text-secondary">
+            Jaynagar, Banglore<br>
+            India, Earth<br>
+            204553
+          </address>
+          <p class="small text-secondary">
+            contact&commat;mujo.com
+          </p>
+        </div>
+        <div class="col-md-2">
+          <h6>Main Menu</h6>
+          <ul class="list-unstyled small">
+            <li><a href="" class="text-decoration-none text-secondary">Link item</a></li>
+            <li><a href="" class="text-decoration-none text-secondary">Link item</a></li>
+            <li><a href="" class="text-decoration-none text-secondary">Link item</a></li>
+            <li><a href="" class="text-decoration-none text-secondary">Link item</a></li>
+            <li><a href="" class="text-decoration-none text-secondary">Link item</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h6>Misc</h6>
+          <ul class="list-unstyled small">
+            <li><a href="" class="text-decoration-none text-secondary">Link item</a></li>
+            <li><a href="" class="text-decoration-none text-secondary">Link item</a></li>
+            <li><a href="" class="text-decoration-none text-secondary">Link item</a></li>
+            <li><a href="" class="text-decoration-none text-secondary">Link item</a></li>
+            <li><a href="" class="text-decoration-none text-secondary">Link item</a></li>
+          </ul>
+        </div>
+        <div class="col-md-5">
+          <h6>Follow us</h6>
+          <p>
+            <a href="" class="btn btn-sm btn-primary rounded-pill px-md-3 d-inline-flex align-items-center mb-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook me-md-2" viewBox="0 0 16 16">
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </svg>
+            <span class="d-md-block d-none">Facebook</span>
+          </a>
+          <a href="" class="btn btn-sm btn-info rounded-pill px-md-3 d-inline-flex align-items-center mb-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter me-md-2" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+          </svg>
+          <span class="d-md-block d-none">Twitter</span>
+        </a>
+        <a href="" class="btn btn-sm btn-danger rounded-pill px-md-3 d-inline-flex align-items-center mb-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube me-md-2" viewBox="0 0 16 16">
+          <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+        </svg>
+        <span class="d-md-block d-none">Youtube</span>
+      </a>
+          </p>
+        </div>
+      </div>
+    </div>
+ </div>
+
+  
+ <!-- copyright stuff  -->
+<div class="copy py-4 small" style="background-color: black;">
+  <div class="container">
+    <div class="row justify-content-center text-center text-white">
+      <p class="m-0 small">Copyright &copy; 2024. All Rights Reserved.</p>
+    </div>
+  </div>
+</div> 
+
+
+<!-- sticky footer -->
+<div class="d-md-none d-block d-flex p-3 fixed-bottom justify-content-center blur-filter shadow-lg">
+  <a href="#" class="rounded-pill btn btn-sm btn-warning small px-3 fw-bold">
+    Sign-up for free
+  </a>
+</div>
+<!-- padding for mobile  -->
+<div class="mobile-padding pt-5 pb-4 d-md-none" style="background-color: black;"></div>
+    
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
+
